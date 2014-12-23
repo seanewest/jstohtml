@@ -20,7 +20,7 @@ include npm modules in your JS with [browserify](https://github.com/substack/nod
 cat index.js | browserify - | jstohtml > index.html
 ```
 
-pipe right to an http server with [http-cat](https://github.com/seanewest/http-cat)
+pipe right to an http server with [httpcat](https://github.com/seanewest/httpcat)
 ```
 cat index.js | jstohtml | httpcat 3000
 ```
