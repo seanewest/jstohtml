@@ -1,0 +1,21 @@
+{
+  "name": "jstohtml",
+  "version": "1.0.0",
+  "description": "Pipeable tool that wraps your js in a basic html template.",
+  "bin": "cmd.js",
+  "dependencies": {
+    "concat-stream": "^1.4.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/seanewest/jstohtml"
+  },
+  "keywords": [
+    "pipe",
+    "html",
+    "script"
+  ],
+  "author": "Sean West",
+  "license": "ISC",
+  "homepage": "https://github.com/seanewest/jstohtml"
+}
