@@ -25,6 +25,11 @@ pipe right to an http server with [httpcat](https://github.com/seanewest/httpcat
 cat index.js | jstohtml | httpcat 3000
 ```
 
+pipe right to a [thrust](https://github.com/breach/thrust) browser window with [thrust-cat](https://github.com/seanewest/thrust-cat)
+```
+cat index.js | jstohtml | thrust-cat 800 600
+```
+
 pipe right to your browser with [hcat](https://github.com/kessler/node-hcat)
 
 ```
