@@ -1,15 +1,9 @@
 #!/usr/bin/env node
 
+var jstohtml = require('./');
 var concat = require('concat-stream');
-
-var scriptToIndex = function(script) {
-  var html = "<html><body><script>";
-  html += script;
-  html += "</script></body></html>";
-  return html;
-}
 
 process.stdin
   .pipe(concat(function(data) {
-    process.stdout.write(scriptToIndex(data));
+    process.stdout.write(jstohtml(data));
   }))

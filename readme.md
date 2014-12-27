@@ -12,6 +12,23 @@ cat index.js | jstohtml > index.html
 npm install seanewest/jstohtml
 ```
 
+## Command Line Usage
+
+Just pipe to it any javascript to use this from the command line.
+```
+echo "console.log('hello world')" | jstohtml > index.html
+cat index.html
+<html><body><script>console.log('hello world')
+</script></body></html>
+```
+
+## API
+```
+var jstohtml = require('jstohtml');
+var somejs = 'console.log("hello world")';
+var html = jstohtml(somejs);
+```
+
 ## Pipeline Friends
 
 

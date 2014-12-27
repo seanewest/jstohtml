@@ -4,7 +4,7 @@
   "description": "Pipeable tool that wraps your js in a basic html template.",
   "bin": "cmd.js",
   "dependencies": {
-    "concat-stream": "^1.4.7"
+    "bl": "^0.9.3"
   },
   "repository": {
     "type": "git",
